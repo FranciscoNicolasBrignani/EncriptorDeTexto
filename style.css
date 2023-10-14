@@ -1,0 +1,143 @@
+
+#no-texto{
+    float: right;
+    width: 400px;
+}
+.no-mensaje{
+    width: 336px;
+    height: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.ingrese-mensaje{
+    width: 336px;
+    height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.advertencia-logo{
+    padding-right: 8px;
+}
+
+.advertencia{
+    margin-top: 600px;
+    margin-left: 230px;
+    width: 205px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.boton-encriptar{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 230px;
+/*Letras*/
+    color: white;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.boton-desencriptar{
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 24px;
+    margin-left: 15px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;  
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+    /*Letras*/
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    font-size: 18px;
+}
+
+.boton-copiar{
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 24px;
+    margin-left: 15px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;  
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+    /*Letras*/
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    font-size: 18px;
+}
+
+#texto-usuario, #caja-desencriptado{
+    border: 0;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+    text-transform:lowercase;
+}
+
+.caja-desencriptado{
+    float: right;
+    width: 580px;
+}
+
+.mensaje-encriptado{
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: 24px;
+color: #495057;
+}
+
+

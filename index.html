@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge #1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <input class="text-input" type="text" name="texto-usuario" id="texto-usuario" value="Ingrese el texto aqui...">
+
+    <div id="no-texto">
+        <img class="ocultar" src="./Img/Muñeco.png" alt="">
+        <h2 class="no-mensaje">Ningún mensaje fue encontrado</h2>
+        <p class="ingrese-mensaje">Ingrese el texto que desees encriptar o desencriptar.</p>
+    </div>
+
+    <section class="caja-desencriptado">
+        <input class="mensaje-encriptado" type="text" id="caja-desencriptado">
+    </section>
+
+    <p class="advertencia"><img class="advertencia-logo" src="./Img/Vector2.png" alt="">Solo letras minúsculas y sin acentos.</p>
+
+    <div>
+        <input  class="boton-encriptar" id="bntEncriptar" type="button" value="Encriptar">
+        <input class="boton-desencriptar" id="bntDesencriptar" type="button" value="Desencriptar">
+        <button id="btn"  class="boton-copiar">Copiar</button>
+    </div>
+
+    <script src="./javascript.js"></script>
+</body>
+</html>
